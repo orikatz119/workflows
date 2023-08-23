@@ -6,6 +6,7 @@ on:
   pull_request:
     branches:
       - main
+      - ori
 env: # Set the secret as an input
   docker_username: ${{ github.actor }}
   docker_password: ${{ secrets.GITHUB_TOKEN }}
